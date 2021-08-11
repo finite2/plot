@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\dutto\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\dutto\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Users\dutto\AppData\Local\Microsoft\WindowsApps;C:\Users\dutto\AppData\Local\GitHubDesktop\bin;C:\Users\dutto\AppData\Roaming\npm;C:\Users\dutto\AppData\Local\atom\bin;C:\Users\dutto\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dutto\.dotnet\tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@finite%2fcore: Not found
+      at Request.params.callback [as _callback] (C:\Users\dutto\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\dutto\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:376:20)
+      at Request.<anonymous> (C:\Users\dutto\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:376:20)
+      at IncomingMessage.<anonymous> (C:\Users\dutto\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:482:28)
+      at IncomingMessage.emit (events.js:388:22)
+      at endReadableNT (internal/streams/readable.js:1336:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "@finite/plot",
+    "version": "0.0.1",
+    "private": false,
+    "peerDependencies": {
+      "react-dom": "^17.0.2",
+      "react": "^17.0.2",
+      "react-router-dom": "^5.2.0",
+      "styled-components": "^5.3.0"
+    },
+    "optionalDependencies": {
+      "squarify": "^1.1.0"
+    },
+    "dependencies": {
+      "@finite/core": "^0.0.1",
+      "@fortawesome/fontawesome-svg-core": "^1.2.28",
+      "@fortawesome/free-solid-svg-icons": "^5.13.0",
+      "@fortawesome/react-fontawesome": "^0.1.9",
+      "d3-scale": "^4.0.0",
+      "d3-shape": "^3.0.1",
+      "prettier": "^2.3.0",
+      "prop-types": "15.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
